@@ -2,8 +2,6 @@
 Click on New Item -<br/>
 <img width="963" height="412" alt="image" src="https://github.com/user-attachments/assets/6919d3be-b439-4c00-a547-ef7cbb86af18" /><br/><br/>
 
-<img width="807" height="835" alt="image" src="https://github.com/user-attachments/assets/1c678eb3-ba47-4c35-9f26-6300352655ab" />
-
 <br/>Click Ok
 <br/><br/>
 <br/>Go to Pipeline >> Configure >>
