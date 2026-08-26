@@ -18,7 +18,8 @@ Under pipeline section, select Hello World & copy & paste multiple sections of H
 
 
 Lets start writing Pipeline -
-<br/>
+<br/><br/>
+<br/><br/>
 Add tools & first stage Git Checkout -
 <br/>
 <img width="1302" height="617" alt="image" src="https://github.com/user-attachments/assets/32766e60-bb2e-4900-99f2-14a8f2df1fb7" />
