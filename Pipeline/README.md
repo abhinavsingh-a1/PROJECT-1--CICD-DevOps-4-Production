@@ -51,6 +51,14 @@ Add tools & first stage Git Checkout -
 
 <br/><br/>
 
+# Stage 4 : File system scan
+
+### It will scan current directory and export report in table format in html file -
+
+<img width="1268" height="106" alt="image" src="https://github.com/user-attachments/assets/b7efe064-b585-419f-aee9-0dd774ee30b4" />
+
+# Stage 5 : SonarQube Analysis
+
 # Generate SonarQube Token. 
 ## Check credentials >> Sonarqube >> README.md<br/>
 
