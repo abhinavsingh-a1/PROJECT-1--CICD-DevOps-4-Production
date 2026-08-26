@@ -20,6 +20,9 @@ Under pipeline section, select Hello World & copy & paste multiple sections of H
 Lets start writing Pipeline -
 <br/><br/>
 <br/><br/>
+
+# Stage 1: Git CheckOut
+
 Add tools & first stage Git Checkout -
 <br/>
 <img width="1302" height="617" alt="image" src="https://github.com/user-attachments/assets/32766e60-bb2e-4900-99f2-14a8f2df1fb7" />
@@ -38,7 +41,15 @@ Add tools & first stage Git Checkout -
 <br/><img width="1319" height="716" alt="image" src="https://github.com/user-attachments/assets/7d6770de-c481-4a59-96dd-9eaa42875e5d" />
 
 <br/>Copy syntax and paste in pipeline under steps.
-<br/><br/><br/>
+<br/>
+<img width="1183" height="399" alt="image" src="https://github.com/user-attachments/assets/ac5181ea-0ccd-4a39-a437-6e35f2bb26a2" />
+
+# Stage 2 & 3: Compile & Test
+
+<img width="1281" height="204" alt="image" src="https://github.com/user-attachments/assets/b9f533d8-3184-474e-b0a5-376e8841a01a" />
+
+
+<br/><br/>
 
 # Generate SonarQube Token. 
 ## Check credentials >> Sonarqube >> README.md<br/>
