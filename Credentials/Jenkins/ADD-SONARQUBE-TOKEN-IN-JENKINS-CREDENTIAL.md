@@ -1,11 +1,15 @@
 
 # Add Sonarqube token as secret text credential in Jenkins<br/><br/>
 
-Go to Add credentials. Create secret text. Paste in id field token from sonarqube and provide name -<br/>
+Go to Add credentials. Create secret text. 
 
 <img width="525" height="743" alt="image" src="https://github.com/user-attachments/assets/4f54d1fc-4d50-4eb4-bdb3-ea3267605603" />
 <br/>
-Go to Manage Jenkins >> Systems >> SonarQube Installation >> Select server authentication token -
+
+## Check Credentials >> SonarQube >> GENERATE-SONARQUBE-TOKEN.md
+
+Paste in field Secret -<br/>
+<br/>
 <br/>
 <img width="1290" height="495" alt="image" src="https://github.com/user-attachments/assets/8c7b8442-8c49-4248-b8be-d91a743dccb2" />
 <br/>
