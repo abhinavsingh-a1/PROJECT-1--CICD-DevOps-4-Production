@@ -128,6 +128,11 @@ Paste in POM.xml inside URL<br/>
 Do above 2 changes in POM.xml file.
 <br/>
 <br/>
+Add credential to access this repository -
+<br/>
+<img width="1295" height="460" alt="image" src="https://github.com/user-attachments/assets/4f537944-1f3b-48e7-9b15-d4f03e27d0e5" />
+
+<br/>
 Go to Manage Jenkins >> Manage Files >> New Configuration -
 <br/>
 <img width="861" height="834" alt="image" src="https://github.com/user-attachments/assets/d187b247-a2aa-4c07-a453-f32551616143" />
@@ -135,7 +140,13 @@ Go to Manage Jenkins >> Manage Files >> New Configuration -
 
 <br/>
 Now in Settings.xml file we will provide credentials for accessing Nexus -
-<br/><br/><br/><br/>
+<br/><br/>
+<img width="1852" height="889" alt="image" src="https://github.com/user-attachments/assets/f8db0425-3edd-40b5-a9a5-7807ec54a20f" />
+
+<br/>
+<img width="1272" height="563" alt="image" src="https://github.com/user-attachments/assets/be5ee62a-8dea-49d3-b612-3c8aba647ace" />
+
+<br/>
 Look for servers segment and add below 2 segments there & submit - 
 <br/>
 &lt;server&gt;<br/>
@@ -150,6 +161,105 @@ Look for servers segment and add below 2 segments there & submit -
       &lt;password&gt;admin123&lt;/password&gt;<br/>
     &lt;/server&gt;<br/>
 <br/>
+
+SAVE.
+<br/><br/>
+Now go to Pipeline Syntax for publish to nexus - 
+
+<img width="1298" height="598" alt="image" src="https://github.com/user-attachments/assets/8b190f77-f2b6-4ac3-bc6e-2aae85862005" />
+<img width="1023" height="128" alt="image" src="https://github.com/user-attachments/assets/c32b88d1-275d-4bdc-b685-98682eb1b62b" />
+<img width="1006" height="187" alt="image" src="https://github.com/user-attachments/assets/443a5917-5d57-4816-97d1-5bd60a997c0b" />
+
+Paste the generate code to pipeline -
+
+<img width="1786" height="226" alt="image" src="https://github.com/user-attachments/assets/4d57c48b-2c2b-4454-956f-258083527cd4" />
+<br/><br/>
+
+# Stage 9 : Build & Tag Docker Image
+
+Lets take help from Pipeline syntax -
+
+<br/><br/>
+If you are using public DockerHub repo, dont provide URL but if you are using private Dockerhub repo like in organization, provide the URL -<br/><br/>
+<img width="1333" height="467" alt="image" src="https://github.com/user-attachments/assets/3853c71f-7156-4d73-92e9-53c265a6d1a4" />
+
+<br/><br/>
+To add credential, click on Add -
+<br/><br/>
+<img width="1018" height="552" alt="image" src="https://github.com/user-attachments/assets/b88b9abc-6315-4111-829f-83844662bf24" />
+
+<br/>
+Provide userName, Password & Id = Docker-Cred
+<br/><br/>
+<img width="1840" height="750" alt="image" src="https://github.com/user-attachments/assets/e65fd5c6-9b0d-4e99-a453-82167eef20f0" />
+
+<br/><br/>
+<img width="1450" height="278" alt="image" src="https://github.com/user-attachments/assets/1379349a-df10-4af0-969e-3d24c34067b9" />
+
+<br/><br/>
+
+# Stage 10: Docker Image Scan
+
+<br/>
+<img width="1553" height="189" alt="image" src="https://github.com/user-attachments/assets/366ddc1d-1d7e-4f7e-aeb3-f5f43a680ac1" />
+
+
+<br/><br/>
+
+# Stage 11: Push Docker Image
+
+<br/>
+<img width="1585" height="266" alt="image" src="https://github.com/user-attachments/assets/179c7c23-3864-466e-af5d-bfc874878d72" />
+
+
+<br/>
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+
+
 <br/>
 # For EKS, create service account (Follow EKS-Setup.md document) -
 <br/>
