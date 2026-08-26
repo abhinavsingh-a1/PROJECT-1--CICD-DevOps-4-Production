@@ -8,11 +8,12 @@ Click on New Item -<br/>
 <br/><br/>
 <br/>Go to Pipeline >> Configure >>
 <br/>
-<img width="514" height="502" alt="image" src="https://github.com/user-attachments/assets/9f56476c-5e06-44ae-b0bb-7801d89aade6" /><br/>
+<img width="1201" height="593" alt="image" src="https://github.com/user-attachments/assets/0a9a0d8f-1001-45a3-8fc0-6aabeeb30cb7" />
+
 <br/>
 Under pipeline section, select Hello World & copy & paste multiple sections of Hello World -<br/>
 <br/>
-<img width="1299" height="708" alt="image" src="https://github.com/user-attachments/assets/ff2804de-e096-4e99-8113-b9321d309c51" /><br/>
+<img width="1304" height="575" alt="image" src="https://github.com/user-attachments/assets/ba048df6-cb0a-4bdd-9bd2-388dc8aba9d3" />
 <br/>
 
 
