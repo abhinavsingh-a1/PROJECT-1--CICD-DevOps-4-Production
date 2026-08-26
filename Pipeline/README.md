@@ -34,11 +34,13 @@ Paste syntax in pipeline -
 <img width="1234" height="528" alt="image" src="https://github.com/user-attachments/assets/079a7fbe-eae9-41b9-837b-ca2b060cff5f" />
 
 <br/>
+
 # Create Webhook in SonarQube.
+
 <br/>
 Check Credentials >> SonarQube >> Webhook.md
 
-<br/>
+<br/><br/><br/>
 
 
 Add to JavaApplication's POM.xml file under section >> distributionManagement >> repository >> URL<br/>
