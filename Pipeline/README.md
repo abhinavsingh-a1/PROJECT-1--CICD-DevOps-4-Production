@@ -78,13 +78,17 @@ Now lets make changes. To call Sonar scanner tool, we have to define it -
 
 <img width="1311" height="225" alt="image" src="https://github.com/user-attachments/assets/fa663e76-a430-4b9c-88ca-1f4a55ed25fd" />
 
-<img width="1349" height="198" alt="image" src="https://github.com/user-attachments/assets/2ba493d7-9bd2-4f54-93bd-9e64ca0268cc" />
-
-
 <br/>
 <img width="1234" height="528" alt="image" src="https://github.com/user-attachments/assets/079a7fbe-eae9-41b9-837b-ca2b060cff5f" />
 
 <br/>
+
+# Stage 6 : SonarQube Quality Gates
+
+These are the conditions in Sonarqube. If these conditions are passed then we can say our code is fine -
+
+<img width="1628" height="885" alt="image" src="https://github.com/user-attachments/assets/24bde510-4ac8-429f-ba2b-224ea255cfc2" />
+
 
 # Create Webhook in SonarQube.
 
