@@ -75,23 +75,6 @@ Check Nexus-Jenkins-Installation >> CONFIGURE-JENKINS-PLUGINS.md
 
 # Lets create pipeline -
 
-<br/>
-Click on New Item -<br/>
-<img width="963" height="412" alt="image" src="https://github.com/user-attachments/assets/6919d3be-b439-4c00-a547-ef7cbb86af18" /><br/><br/>
-
-<img width="807" height="835" alt="image" src="https://github.com/user-attachments/assets/1c678eb3-ba47-4c35-9f26-6300352655ab" />
-
-<br/>Click Ok
-<br/><br/>
-<br/>Go to Pipeline >> Configure >>
-<br/>
-<img width="514" height="502" alt="image" src="https://github.com/user-attachments/assets/9f56476c-5e06-44ae-b0bb-7801d89aade6" /><br/>
-<br/>
-Under pipeline section, select Hello World & copy & paste multiple sections of Hello World -<br/>
-<br/>
-<img width="1299" height="708" alt="image" src="https://github.com/user-attachments/assets/ff2804de-e096-4e99-8113-b9321d309c51" /><br/>
-<br/>
-
 # Go to Pipeline >> README.md
 Check complete process for creating pipeline from scratch.
 
