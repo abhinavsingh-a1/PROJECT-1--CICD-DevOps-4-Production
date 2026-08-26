@@ -217,58 +217,24 @@ Provide userName, Password & Id = Docker-Cred
 
 <br/>
 
-<br/>
+# For EKS, create service account in Master node
+
+Check EKS-Setup.md
 
 <br/>
 
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-
-
-
-<br/>
-# For EKS, create service account (Follow EKS-Setup.md document) -
-<br/>
 Create namespace -<br/>
+
 ```bash
 kubectl create ns webapps
 ```
+
 <br/>
-Create Service Account -<br/>
+
+Create Service Account yaml file -<br/>
+vi ServiceAccount.yaml
+paste below code
+
 ```yaml
 apiVersion: v1
 kind: ServiceAccount
@@ -276,7 +242,61 @@ metadata:
   name: jenkins
   namespace: webapps
 ```
+
+Create Service account -
+
+ ```bash
+kubectl apply -f ServiceAccount.yaml
+```
+
 <br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+
+
+
 
 <br/>
 <br/>
