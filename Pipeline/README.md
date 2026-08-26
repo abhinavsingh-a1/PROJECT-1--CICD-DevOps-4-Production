@@ -68,7 +68,18 @@ Lets go back to pipeline syntax -
 <img width="1322" height="521" alt="image" src="https://github.com/user-attachments/assets/782a5b3a-5c65-491e-9cd3-c866ef47fd48" />
 
 <br/>
-Paste syntax in pipeline -
+Paste syntax in pipeline. <br/>
+<br/>
+Why I have replaced credentialsId: Sonar-token ==>> Sonar
+<br/>
+Because in Jenkins >> System, we have installed Sonar server with name of Sonar. There we have provided URL & password.
+<br/>
+
+Now lets make changes. To call Sonar scanner tool, we have to define it -
+
+<img width="1349" height="198" alt="image" src="https://github.com/user-attachments/assets/2ba493d7-9bd2-4f54-93bd-9e64ca0268cc" />
+
+
 <br/>
 <img width="1234" height="528" alt="image" src="https://github.com/user-attachments/assets/079a7fbe-eae9-41b9-837b-ca2b060cff5f" />
 
