@@ -359,30 +359,56 @@ Now Jenkins user has permission to deploy application on EKS.
 
 <br/>
 
+Next, Jenkins should connect to this cluster. For that we will create secret -
+
+https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/#create-token
+
 <br/>
+
+<br/>
+Copy code &
+<br/>
+
+<br/>
+vi Secret.yaml
 
 <br/>
 
 <br/>
 
-<br/>
+```yaml
+apiVersion: v1
+kind: Secret
+type: kubernetes.io/service-account-token
+metadata:
+  name: mysecretname
+  annotations:
+    kubernetes.io/service-account.name: jenkins
+
+```
+
+
+
+
+
 
 <br/>
+<br/>
+Change service account name to jenkins.
+<br/>
+<br/>
+
+```bash
+kubectl apply -f Secret.yaml -n webapps
+```
 
 <br/>
+<br/>
 
+Now we have to get the token to connect to Jenkins for authentication -
+<br/>
+<img width="1646" height="732" alt="image" src="https://github.com/user-attachments/assets/6a93d1d4-b427-4ffe-b6bf-3c1dd93b9d8b" />
 
-
-
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
