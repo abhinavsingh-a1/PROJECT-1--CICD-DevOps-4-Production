@@ -34,17 +34,12 @@ Paste syntax in pipeline -
 <img width="1234" height="528" alt="image" src="https://github.com/user-attachments/assets/079a7fbe-eae9-41b9-837b-ca2b060cff5f" />
 
 <br/>
-Create Webhook in SonarQube -
+# Create Webhook in SonarQube.
 <br/>
-<img width="1313" height="335" alt="image" src="https://github.com/user-attachments/assets/9913b6dd-544c-4ed9-ab00-219024566e80" />
+Check Credentials >> SonarQube >> Webhook.md
 
 <br/>
-Provide jenkins URL
-<br/>
-<img width="459" height="552" alt="image" src="https://github.com/user-attachments/assets/6858a28c-3ef1-42f0-9931-6722dfbd92a6" />
 
-<br/>Create
-<br/>
 
 Add to JavaApplication's POM.xml file under section >> distributionManagement >> repository >> URL<br/>
 Go to Nexus >> Nexus repository >> maven-released >> URL >> Copy<br/>
