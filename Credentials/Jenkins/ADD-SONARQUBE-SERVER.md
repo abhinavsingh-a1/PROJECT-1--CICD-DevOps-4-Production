@@ -8,3 +8,11 @@ Scroll down to SONARQUBE Server -
 
 Click on Add Sonarqube.
 
+<img width="1192" height="459" alt="image" src="https://github.com/user-attachments/assets/fb9b7c00-cc21-43d5-9272-5c6b5232292c" />
+
+<img width="1232" height="636" alt="image" src="https://github.com/user-attachments/assets/f756e627-e6f8-4104-8e55-374d6c149977" />
+
+
+Server URL = SONARQUBE URL <br/>
+
+Click Apply.
