@@ -11,7 +11,7 @@ Click on Add Credentials -
 <img width="1325" height="848" alt="image" src="https://github.com/user-attachments/assets/37788cf8-49c4-4c0d-9a0f-66b791a16e16" />
 
 Provide GITHUB username i.e. abhinavsingh-a1 <br/>
-Password - Token which we have generate <br/>
+Password - Token which we have generated in Credentials >> GitHub >> Generate-Token.md <br/>
 ID - git-Cred (or any name you want) <br/>
 
 
