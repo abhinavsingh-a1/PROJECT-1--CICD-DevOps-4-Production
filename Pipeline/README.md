@@ -515,19 +515,3 @@ kubectl version --short --client
 <br/>
 
 
-
-
-
-
-
-
-# NEXUS
-
-Copy IP address and place it with port 8081. Get UI of Nexus, id = admin, password=admin123, select disable ananymous access -
-
-<img width="475" height="483" alt="image" src="https://github.com/user-attachments/assets/f3dfba17-5e43-4f54-8339-b9d8cbd34ee8" />
-
-Nexus is accessible to you -
-
-<img width="1105" height="927" alt="image" src="https://github.com/user-attachments/assets/88b7b6bd-5828-4935-9b41-12f59d295e9f" />
-
