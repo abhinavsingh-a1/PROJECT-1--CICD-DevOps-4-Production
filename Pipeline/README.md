@@ -462,8 +462,11 @@ Paste it here
 <img width="1832" height="189" alt="image" src="https://github.com/user-attachments/assets/80f95817-279a-4899-a712-f326ec194126" />
 
 <br/>
+<img width="1215" height="109" alt="image" src="https://github.com/user-attachments/assets/933eda0b-f23a-4cba-84a7-5ded77e464cc" />
+
 <br/>
 <br/>
+Install kubectl on Jenkins Server -
 <br/>
 <br/>
 <br/>
