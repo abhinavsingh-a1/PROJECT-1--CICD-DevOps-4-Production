@@ -95,12 +95,26 @@ These are the conditions in Sonarqube. If these conditions are passed then we ca
 <br/>
 Check Credentials >> SonarQube >> Webhook.md
 
-<br/><br/><br/>
+<br/>
+
+<img width="1917" height="291" alt="image" src="https://github.com/user-attachments/assets/fe106ebf-1a42-4b10-820d-caf7d3338867" />
 
 
+<br/>
+
+# Stage 7 : Build
+
+
+<img width="1888" height="191" alt="image" src="https://github.com/user-attachments/assets/c9d1cda3-75e0-4125-91df-22316f1f0e0b" />
+
+<br/>
+
+# Stage 8 : Publish to Nexus
+<br/><br/>
+In order to publish artifact to Nexus repository, we have to follow below steps -<br/><br/>
 Add to JavaApplication's POM.xml file under section >> distributionManagement >> repository >> URL<br/>
-Go to Nexus >> Nexus repository >> maven-released >> URL >> Copy<br/>
-Paste in POM.xml inside URL<br/>
+Go to Nexus >> Nexus repository >> maven-released >> URL >> Copy<br/><br/>
+Paste in POM.xml inside URL<br/><br/>
 <br/>
 <img width="1764" height="407" alt="image" src="https://github.com/user-attachments/assets/2056e376-9963-4c13-ab62-0360145d89be" />
 
@@ -108,6 +122,8 @@ Paste in POM.xml inside URL<br/>
 Add to JavaApplication's POM.xml file under section >> distributionManagement >> snapshotRepository >> URL<br/>
 Go to Nexus >> Nexus repository >> maven-snapshot >> URL >> Copy<br/>
 Paste in POM.xml inside URL<br/>
+<img width="1357" height="388" alt="image" src="https://github.com/user-attachments/assets/28a7012e-9b37-49e1-a0a7-015e945d0d5b" />
+
 <br/>
 Do above 2 changes in POM.xml file.
 <br/>
