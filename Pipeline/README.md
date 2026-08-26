@@ -25,6 +25,10 @@ Add tools & first stage Git Checkout -
 <img width="1302" height="617" alt="image" src="https://github.com/user-attachments/assets/32766e60-bb2e-4900-99f2-14a8f2df1fb7" />
 
 <br/>Use Pipeline syntex to create snippet.
+
+## ADD CREDENTIAL FOR GITHUB IN JENKINS. FOLLOW -
+### Credentials >> Jenkins >> Add-Credentials.md
+
 <br/>Select git, paste repo URL, And add credentials with username & password -
 <br/>
 <img width="1531" height="788" alt="image" src="https://github.com/user-attachments/assets/7ffc6b40-c792-4bab-ad57-fced2f73354e" />
