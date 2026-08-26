@@ -469,14 +469,22 @@ Paste it here
 Install kubectl on Jenkins Server -
 <br/>
 <br/>
+
 ```bash
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin
 kubectl version --short --client
 ```
+
 <br/>
 <br/>
+
+# Stage 13 Verify the deployment
+
+<img width="1919" height="238" alt="image" src="https://github.com/user-attachments/assets/b66140b4-e83e-42f2-bf9b-0f6e938e7901" />
+
+
 <br/>
 <br/>
 <br/>
