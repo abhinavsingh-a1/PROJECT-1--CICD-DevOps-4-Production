@@ -59,12 +59,8 @@ Add tools & first stage Git Checkout -
 
 # Stage 5 : SonarQube Analysis
 
-# Generate SonarQube Token. 
-## Check credentials >> Sonarqube >> README.md<br/>
-
-
-# Add Sonarqube token as secret text credential in Jenkins<br/>
-## Check Credential >> Jenkins >> README.md
+# Create credential for Sonarqube in Jenkins<br/>
+## Check Credential >> Jenkins >> ADD-SONARQUBE-TOKEN-IN-JENKINS-CREDENTIAL.md
 
 <br/>
 Lets go back to pipeline syntax -
