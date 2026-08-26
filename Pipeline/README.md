@@ -15,11 +15,10 @@ Add tools & first stage Git Checkout -
 
 <br/>Copy syntax and paste in pipeline under steps.
 <br/><br/><br/>
-Generate SonarQube Token. <br/>
-Go to Sorqube. Under administrator >> Security >> Users <br/>
-Create token >> Copy token -<br/><br/>
-<img width="1357" height="926" alt="image" src="https://github.com/user-attachments/assets/ff95fa16-8536-407c-a5f4-fab6d5c7f443" />
-<br/>
+
+# Generate SonarQube Token. 
+## Check credentials >> Sonarqube >> README.md<br/>
+
 Add Sonarqube token as secret text credential in Jenkins<br/><br/>
 Go to Add credentials. Create secret text. Paste in id field token from sonarqube and provide name -<br/>
 <img width="525" height="743" alt="image" src="https://github.com/user-attachments/assets/4f54d1fc-4d50-4eb4-bdb3-ea3267605603" />
