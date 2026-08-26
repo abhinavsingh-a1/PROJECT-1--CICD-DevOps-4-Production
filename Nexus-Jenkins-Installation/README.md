@@ -33,6 +33,22 @@ sudo apt-get update
 sudo apt-get install trivy
 ```
 
+Get public IP of EC2 instance -
+```bash
+curl ifconfig.me
+```
+
+
+# Run NEXUS
+
+Copy IP address and place it with port 8081. Get UI of Nexus, id = admin, password=admin123, select disable ananymous access -
+
+<img width="475" height="483" alt="image" src="https://github.com/user-attachments/assets/f3dfba17-5e43-4f54-8339-b9d8cbd34ee8" />
+
+Nexus is accessible to you -
+
+<img width="1105" height="927" alt="image" src="https://github.com/user-attachments/assets/88b7b6bd-5828-4935-9b41-12f59d295e9f" />
+
 # Run Jenkins
 
 Lets check containers -
@@ -43,10 +59,7 @@ docker ps
 
 <img width="1429" height="54" alt="image" src="https://github.com/user-attachments/assets/3f17116b-1f85-4bf7-960f-a225797f17a9" />
 
-Get public IP of EC2 instance -
-```bash
-curl ifconfig.me
-```
+
 
 Copy IP address and place it with port 8080. Get UI of Jenkins -
 
