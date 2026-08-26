@@ -319,17 +319,41 @@ kubectl apply -f Role.yaml
 
 <br/>
 
+Bind Role to Service Account -
+
 <br/>
+vi BindRole.yaml
+<br/>
+
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: app-rolebinding
+  namespace: webapps 
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: app-role 
+subjects:
+- namespace: webapps 
+  kind: ServiceAccount
+  name: jenkins 
+```
 
 <br/>
 
 <br/>
 
-<br/>
+ ```bash
+kubectl apply -f BindRole.yaml
+```
 
 <br/>
 
 <br/>
+
+Now Jenkins user has permission to deploy application on EKS.
 
 <br/>
 
