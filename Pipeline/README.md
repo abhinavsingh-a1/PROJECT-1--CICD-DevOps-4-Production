@@ -217,7 +217,9 @@ Provide userName, Password & Id = Docker-Cred
 
 <br/>
 
-# For EKS, create service account in Master node
+# Stage 12: Deploy to Kubernetes
+
+## For EKS, create service account in Master node
 
 Check EKS-Setup.md
 
@@ -411,6 +413,54 @@ Now we have to get the token to connect to Jenkins for authentication -
 
 <br/>
 <br/>
+Create credential in Jenkins -
+<br/>
+<br/>
+Check ADD-CREDENTIALS-FOR-K8S.md
+<br/>
+<br/>
+
+
+<br/>Go back to pipeline syntax .
+<br/>
+
+<img width="1334" height="564" alt="image" src="https://github.com/user-attachments/assets/64e6b6a8-94cd-4af6-8bf7-9b6c794a2dca" />
+
+<br/>
+<br/>
+Select credentials -
+<br/>
+<img width="1334" height="556" alt="image" src="https://github.com/user-attachments/assets/7cd72fa1-65e1-4694-aa1b-e1579f00e2f7" />
+
+<br/>
+<br/>
+Next is kubernetes endpoint, for that go to Master node -
+<br/>
+
+```bash
+cat config
+```
+
+<br/>
+It will show all details about cluster. Here we can see the endpoint as well -
+<br/>
+<img width="1145" height="553" alt="image" src="https://github.com/user-attachments/assets/bb048431-ccc2-4edb-b4ff-240ba341a974" />
+
+<br/>
+Paste endpoint & cluster name is below which you can also paste here -
+<br/>
+<img width="933" height="515" alt="image" src="https://github.com/user-attachments/assets/aef56315-b79f-408a-a6f8-02c45a80cd21" />
+
+<br/>
+<br/> Click on Generate pipeline script
+<br/>
+<img width="1018" height="235" alt="image" src="https://github.com/user-attachments/assets/78def85a-5b98-47d1-a30f-812df3e33b5d" />
+
+<br/>
+Paste it here 
+<br/>
+<img width="1832" height="189" alt="image" src="https://github.com/user-attachments/assets/80f95817-279a-4899-a712-f326ec194126" />
+
 <br/>
 <br/>
 <br/>
@@ -431,6 +481,28 @@ Now we have to get the token to connect to Jenkins for authentication -
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+
+
 
 # NEXUS
 
