@@ -101,4 +101,72 @@ Apply
 
 
 
+Dummy pipline for sending email notification
+
+```yaml
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                def jobName = env.JOB_NAME
+                def buildNumber = env.BUILD_NUMBER
+                def pipelineStatus = currentBuild.result ?: 'UNKNOWN'
+
+                def bannerColor = pipelineStatus.toUpperCase() == 'SUCCESS' ? 'green' : 'red'
+
+                def body = """
+<html>
+<body>
+    <div style="border: 4px solid ${bannerColor}; padding: 10px;">
+
+        <h2>${jobName} - Build ${buildNumber}</h2>
+
+        <div style="background-color: ${bannerColor}; padding: 10px;">
+            <h3 style="color: white;">
+                Pipeline Status: ${pipelineStatus.toUpperCase()}
+            </h3>
+        </div>
+
+        <p>Check the <a href="${env.BUILD_URL}">Console Output</a>.</p>
+    </div>
+</body>
+</html>
+"""
+
+                emailext(
+                    subject: "${jobName} - Build ${buildNumber} - ${pipelineStatus.toUpperCase()}",
+                    body: body,
+                    to: 'a1abhinavsingh@outlook.com',
+                    from: 'a1abhinavsingh@outlook.com',
+                    replyTo: 'a1abhinavsingh@outlook.com',
+                    mimeType: 'text/html'
+                )
+            }
+        }
+    }
+}
+```
+
+
+If pipeline succedd, you will get -
+
+<img width="550" height="219" alt="image" src="https://github.com/user-attachments/assets/adbcc80e-5460-401c-8c9c-3e4e113f2d17" />
+
+If pipeline fails -
+
+<img width="547" height="210" alt="image" src="https://github.com/user-attachments/assets/39bae276-6f36-4713-b58f-ce6984c442ff" />
+
+
+
+
 
