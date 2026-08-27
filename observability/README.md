@@ -294,9 +294,50 @@ https://public-ip-of-jenkins-server:9100
 
 If you click on metrics, you will get everything.
 
+```bash
+pgrep prometheus
+kill process_id
+```
+
+Now go to prometheus.yml
+
+Add below -
+
+```yaml
+  - job_name: "node_exporter"
+    static_configs:
+      - targets: ["54.165.96.212:8080"]
+
+  - job_name: "jenkins"
+    metrics_path: "/Prometheus"
+    static_configs:
+      - targets: ["54.165.96.212:9100"]
+```
+
+```bash
+./prometheus &
+```
+
+It will start prometheus.
+
+You can see everythins is up and running -
+
+<img width="1916" height="885" alt="image" src="https://github.com/user-attachments/assets/d6a8009a-6633-456c-8485-1a83e7e8daf6" />
 
 
+Lets add the Node Exporter dashboard -
 
+# Add Node Exporter dashboard -
+
+Search for node exporter dashboard -
+
+Copy dashboard id & paste in grafana -
+
+Load & Import the dashboard -
+
+Node exporter dashboard will be added.
+
+<img width="1912" height="721" alt="image" src="https://github.com/user-attachments/assets/35e6bcf3-7d0c-4e31-aa72-109940dfb425" />
 
 
 
